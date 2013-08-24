@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+<!--
+    Document   : services.xml
+    Created on : December 24, 2009, 4:26 PM
+    Author     : sysadmin
+    Description:
+        Purpose of the document follows.
+-->
+
+<beans>
+    
+    <bean id="loginservice" class="mypack.LoginService">
+        <property name="loginService"></property>
+    </bean>
+
+
+</beans>
